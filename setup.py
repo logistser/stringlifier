@@ -12,20 +12,20 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="stringlifier",
-    version="0.1.1.4",
-    author="Multiple authors",
-    author_email="tiberiu44@gmail.com",
+    version="0.1.2+logistser.1",
+    author="Original authors + logistser (fork maintainer)",
+    author_email="logistser@gmail.com",
     description="Python module for detecting password, api keys hashes and any other string that resembles a randomly generated character sequence.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/adobe/stringlifier",
     packages=setuptools.find_packages(),
     install_requires=parse_requirements('requirements.txt', session=False),
-    classifiers=(
+    classifiers=[
         "Programming Language :: Python :: 3.0",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
-    ),
+    ],
     include_package_data=True,
     package_data={
         '': ['data/string-c.encodings', 'data/string-c.conf', 'data/string-c.bestType', 'data/enhanced-c.encodings',
