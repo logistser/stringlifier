@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="stringlifier",
-    version="0.1.2+logistser.1",
+    version="0.1.2+logistser.2",
     author="Original authors + logistser (fork maintainer)",
     author_email="logistser@gmail.com",
     description="Python module for detecting password, api keys hashes and any other string that resembles a randomly generated character sequence.",
@@ -22,7 +22,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=parse_requirements('requirements.txt', session=False),
     classifiers=[
-        "Programming Language :: Python :: 3.0",
+        "Programming Language :: Python :: 3.9",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
